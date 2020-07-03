@@ -1,0 +1,171 @@
+body {
+  font-family: "Avenir Next";
+  background-color:	#7278D0;
+}
+
+li {
+  list-style: none;
+
+}
+header {
+  width: 100%;
+}
+.header {
+  background-color: #7278D0;
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 50px;
+  padding: 10px 20px;
+}
+.header-list ul {
+  float: right;
+  padding-right: 10px;
+  padding-top: 35px;
+}
+  @media(max-width:1000px) {
+  .header-logo {
+  font-size: 40px;
+  padding: 20px 20px;
+}}
+ @media(max-width:670px) {
+  .header-logo {
+  font-size: 30px;
+  padding: 25px 20px;
+}}
+.main {
+  background-color: #AFEEEE;
+  height: 200px;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+ 
+}
+.container h1 {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #7278D0;
+}
+.tim {
+  margin-left: 98px;
+
+}
+.isi {
+  width: 16%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  box-sizing: border-box
+}
+.isi img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.isi p {
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  opacity: 0.7;
+}
+.isi p:hover {
+  opacity: 1;
+}
+.isi:hover {
+  background-color: #FFF
+}
+@media(max-width:1000px) {
+.tim {
+  padding-top: 20px;
+  text-align: center;
+  
+}
+.isi {
+  width: 32%;
+  float: left;
+  margin-right: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.tiga {
+  margin-left: 120px;
+}}
+@media(max-width:670px) {
+ .main {
+  background-color: #AFEEEE;
+  height: 200px;
+  margin-bottom: 20px;
+}
+ .container {
+  width: 100%;
+  text-align: center;
+  height: 700px;
+   
+ }
+ .container h1 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #7278D0;
+}
+  .tim {
+  padding-top: 0px;
+  text-align: center;
+  flex-direction: column;
+ 
+
+}
+.isi {
+  box-sizing: border-box;
+  margin-top: 20px;
+  flex-direction: column;
+  padding: 0 auto;
+  position: relative;
+  
+}
+.isi p {
+ text-align: center;
+  font-size: 13px;
+  opacity: 0.7; 
+  margin-left: -100px;
+  width: 200px;
+  
+}
+.tiga {
+  margin-left: 0px;
+}
+.satu img {
+  margin-left: -50px;
+}
+.dua  {
+  width: 150px;
+}
+.dua p {
+  padding-left: 70px;
+}
+.tiga img {
+  margin-left: -50px;
+}
+.empat  {
+  width: 150px;
+}
+.empat p {
+   padding-left: 70px;
+}
+.lima img {
+  margin-left: -50px;
+  background-color: white;
+
+}
+.isi:hover {
+  background-color: transparent;
+}
+}
